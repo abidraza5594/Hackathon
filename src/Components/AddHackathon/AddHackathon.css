@@ -1,0 +1,450 @@
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarform {
+  width: 100%;
+  height: 64px;
+  position: relative;
+  background-color: white;
+}
+
+.navbarform img {
+  width: 105px;
+  height: 41px;
+  top: 12px;
+  left: 142px;
+  margin-left: 10%;
+  margin-top: 10px;
+
+}
+
+form h1 {
+  font-family: Poppins;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+
+}
+
+form {
+  width: 913px;
+  height: 1405px;
+  top: 114px;
+  left: 142px;
+  padding: 30px 48px 30px 48px;
+  border-radius: 24px;
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.title {
+  width: 706px;
+  height: 85px;
+  gap: 8px;
+  position: relative;
+}
+
+.title input {
+  width: 706px;
+  height: 51px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  color: #CCCCCC;
+  border: 1px solid #CCCCCC;
+  outline: none;
+}
+
+.title label {
+  width: 35px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+
+}
+
+/* ---------------- Summary---------------- */
+
+.summary {
+  width: 706px;
+  height: 85px;
+  gap: 8px;
+}
+
+.summary input {
+  width: 706px;
+  height: 51px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  outline: none;
+}
+
+.summary input ::placeholder {
+  width: 589px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+}
+
+.summary label {
+  width: 84px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+
+/* ---------------- Description---------- */
+
+.description {
+  width: 706px;
+  height: 212px;
+  gap: 8px;
+}
+
+.description textarea {
+  width: 706px;
+  height: 153px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  color: #CCCCCC;
+  border: 1px solid #CCCCCC;
+  outline: none;
+}
+
+.description textarea::placeholder {
+  width: 659px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+}
+
+.description label {
+  width: 96px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+
+/* --------------- Cover Image -------------- */
+
+
+.coverimage {
+  width: 706px;
+  height: 143px;
+  gap: 8px;
+}
+
+.coverimage input {
+  width: 706px;
+  height: 82px;
+  padding: 8px;
+  border-radius: 16px;
+  border: 2px;
+  gap: 8px;
+  outline: none;
+  color: linear-gradient(0deg, #CCCCCC, #CCCCCC),
+    linear-gradient(0deg, #F5F5F5, #F5F5F5);
+  ;
+  border: 2px dashed #CCCCCC
+}
+
+.coverimage p {
+  width: 277px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+  margin-left: 5px;
+}
+
+.coverimage label {
+  width: 111px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+
+/* ------------- hackathonname------------ */
+
+.hackathonname {
+  width: 706px;
+  height: 85px;
+  gap: 8px;
+}
+
+.hackathonname input {
+  width: 706px;
+  height: 51px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  color: #CCCCCC;
+  outline: none;
+  border: 1px solid #CCCCCC;
+}
+
+.hackathonname input ::placeholder {
+  width: 249px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+}
+
+/* ----------------- hackathonstartdate----------------- */
+
+.hackathondate {
+  width: 706px;
+  height: 93px;
+  gap: 42px;
+  display: flex;
+}
+
+.hackathonstartdate {
+  width: 330px;
+  height: 93px;
+  gap: 16px;
+}
+
+.hackathonstartdate input {
+  width: 337px;
+  height: 51px;
+  padding: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px;
+  gap: 16px;
+}
+
+.hackathonstartdate input ::placeholder {
+  width: 271px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+}
+
+.hackathonstartdate label {
+  width: 183px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+/* --------------- hackathon end date ------------- */
+
+
+.hackathonendtdate {
+  width: 330px;
+  height: 93px;
+  gap: 16px;
+}
+
+.hackathonendtdate input {
+  width: 337px;
+  outline: none;
+  height: 51px;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px;
+  gap: 16px;
+}
+
+.hackathonendtdate input ::placeholder {
+  width: 271px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+}
+
+.hackathonendtdate label {
+  width: 183px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+
+
+/* -------------- github link ------------------ */
+
+.githublink {
+  width: 706px;
+  height: 85px;
+  gap: 8px;
+}
+
+.githublink input {
+  width: 706px;
+  height: 51px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  outline: none;
+  color: #CCCCCC;
+  border: 1px solid #CCCCCC;
+}
+
+.githublink input::placeholder {
+  width: 397px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+}
+
+.githublink label {
+  width: 152px;
+  height: 26px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222222;
+}
+
+
+/* ---------- otherlinks ------------ */
+
+.otherlinks {
+  width: 706px;
+  height: 85px;
+  gap: 8px;
+}
+
+.otherlinks input {
+  width: 706px;
+  height: 51px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px;
+  gap: 8px;
+  outline: none;
+  color: #CCCCCC;
+  border: 1px solid #CCCCCC;
+}
+
+.otherlinks input::placeholder {
+  width: 453px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #858585;
+}
+
+/* ----------------  submit button ------------ */
+
+.uploadsubmission {
+  width: 817px;
+  height: 68px;
+  gap: 24px;
+}
+
+.uploadsubmission button {
+  width: 192px;
+  height: 44px;
+  padding: 8px 18px 8px 18px;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  gap: 8px;
+  border: none;
+  background: #44924C;
+  box-shadow: 0px 1px 5px 0px #0000001F;
+
+  box-shadow: 0px 2px 2px 0px #00000024;
+
+  box-shadow: 0px 3px 1px -2px #00000033;
+
+
+}
