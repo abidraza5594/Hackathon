@@ -5,6 +5,7 @@ import Logo from "../../Assets/AI Planet Logo.png"
 import {useDispatch,useSelector} from "react-redux"
 import { HakathonActions } from '../../Store/Store';
 import {useNavigate} from "react-router-dom"
+import { v4 as uuidv4 } from 'uuid';
 
 
 const HackathonForm = () => {
@@ -32,11 +33,12 @@ const HackathonForm = () => {
     }));
   };
 
+  const uniqueId = uuidv4();
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(formData); 
+    const data={id:uniqueId,...formData} 
     dispatch(HakathonActions.DeleteHack(id))
-    dispatch(HakathonActions.AddHakathon(formData))
+    dispatch(HakathonActions.AddHakathon(data))
     navigate('/')
   };
 

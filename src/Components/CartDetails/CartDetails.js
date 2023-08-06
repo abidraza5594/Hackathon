@@ -7,7 +7,6 @@ import { useLocation, useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { HakathonActions } from '../../Store/Store';
-import EditModal from '../EditModal/EditModal';
 
 
 
@@ -95,15 +94,6 @@ const handleEditFromLocalStorage = (itemToEdit) => {
                     </div>
                 </div>
             </div>
-
-            {editingItem && (
-        <EditModal
-          itemToEdit={editingItem}
-          handleFormSubmit={handleEditFromLocalStorage}
-          onClose={() => setEditingItem(null)} // Add a close function to close the modal
-        />
-      )}
-
             <ToastContainer />
         </div>
     )

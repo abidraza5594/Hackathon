@@ -67,6 +67,30 @@
     color: #666666;
     margin-left: 70%;
     margin-top: 10px;
-
-
 }
+
+
+@media (max-width: 768px) {
+    .card{
+        width: 100vw;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-title{
+        width: 100%;
+        height: auto;
+    }
+    .card-content{
+        width: 100%;
+        height: auto;
+    }
+    .uploaded-date{
+        width: 100%;
+        height: auto;
+    }
+}
+ 

@@ -16,6 +16,7 @@ const MainPage = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
+       
     };
 
     return (
@@ -25,12 +26,12 @@ const MainPage = () => {
                     <img src={Logo} alt="" />
                 </div>
                 <div className="section1" style={divStyle}>
-                    <div className="inner inner1">
+                    <div className="inner1">
                         <h1>Hackathon Submissions</h1>
                         <p>Lorem ipsum dolor sit amet consectetur. Urna cursus amet pellentesque in parturient purus feugiat faucibus. Congue laoreet duis porta turpis eget suspendisse ac pharetra amet. Vel nisl tempus nec vitae. </p>
-                        <button onClick={()=>{navigate("/addhack")}}>Upload Submission</button>
+                        <button onClick={()=>{navigate("/addhack")}}> Upload Submission </button>
                     </div>
-                    <div className="inner inner2">
+                    <div className="inner2">
                         <img src={HandHoldingImage} alt="" />
                     </div>
                 </div>
